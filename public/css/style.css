@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar start */
+.nav-item a{
+    color: rgb(23, 12, 184);
+    /* background-color: white; */
+    padding: 2px;
+    border-radius: 10px;
+    margin: 3px;
+}
+.nav-item a:hover{
+    color:red;
+ 
+}
+  
+.bg-color{
+        background-color: rgb(147, 196, 196);
+   }
+/* navbar end */
+/* section one start */
+.bg-main{
+    height:95vh;
+   position:relative ;
+}
+.picc{ 
+    height: 15rem;
+    text-align: center; 
+    width:300px;
+    
+}
+.btn-change:hover{
+box-shadow: 5ps 5px 5px red;
+}
+/* section one end */
+/* section two start */
+.italic{
+    font-style: italic;
+    
+}
+.ggg{
+    width: 4rem;
+    height: 3rem;
+    background-color: rgb(3, 139, 180);
+    color: white;
+    padding: 5px 8px;
+}
+.card-box:hover{
+box-shadow: 0px 8px 24px rgba(149, 157, 0.2);
+}
+
+/* section two end */
+/* section three start */
+.picc1{   
+    width:450px;
+    padding-bottom: 2rem;
+    
+}
+.name{
+    color:white;
+    font-weight: bold;
+}
+
+.namepra{
+    color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+ 
+}
+.namepra::selection{
+    color: rgb(36, 4, 4);
+    background-color: aqua;
+}
+.namepra1{
+    color:white;
+    font-style: italic;
+}
+.namepra1::selection{
+    background-color: rgb(161, 22, 131);
+}
+
+.backimage{
+    background-image: linear-gradient(rgba(22,22,22,0.7),rgba(22,22,22,0.9)),url("https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2020/05/9704681b11a7870d09febb5c4c9772eb_jpg.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 25rem;
+  
+}
+/* section three end */
+
+
+.spacing{
+   padding-top: 10px;
+line-height: 0.3rem;
+} 
+.section-five{
+    background-color: rgb(206, 177, 177);
+    height:110vh;
+}
+.carousel .card:hover{
+    background-color: #d8cfcf;
+    color: rgb(59, 35, 23);
+}
+
+
+.fa-star{
+    color: rgb(221, 11, 193);
+}
+.box-form{
+    width: 60%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.bg-color2{
+    background-image: linear-gradient(rgba(22,22,22,0.4),rgba(22,22,22,0.9)),url("https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2020/05/9704681b11a7870d09febb5c4c9772eb_jpg.webp");
+    color: white;
+    border-radius: 10rem 0rem 10rem 0rem;
+    margin-bottom: 2rem;
+}
+.color{
+    background-color: black;
+    color: white;
+    
+}
+
+.chhh{
+    background-image: linear-gradient(rgba(22,22,22,0.2),rgba(22,22,22,0.9)),url("https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2020/05/9704681b11a7870d09febb5c4c9772eb_jpg.webp");
+padding: 2rem;
+color: white;
+border-radius: 5rem;
+
+}
+.maxchass{
+    min-width: 50px;
+}
+
+.errorpage img{
+    width: 100%;
+    height: 25rem;
+    background-color: aqua;
+}
+.custom-shape-divider-bottom-1693825142 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693825142 svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 128px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1693825142 .shape-fill {
+    fill: #FFFFFF;
+}
